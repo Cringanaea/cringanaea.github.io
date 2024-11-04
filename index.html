@@ -18,12 +18,19 @@
         <a href="https://www.zverokruh-shop.cz/kocka/pamlsky-pro-kocky/carnilove-cat-crunchy-snack-duck-with-raspberries-with-fresh-meat-50-g/zbozi/zb014372">
             <img src="obrazky/2230e960b76375b0224494ffe27e1d44.gif" height="300" alt="tocici sa cici" title="gatito">
         </a>
-        <img src="obrazky/cat-underwater.gif" height="300" alt="umyvadlo" title="kupel">
-        <img src="obrazky/kralocka.jpeg" height="300" alt="kocklik" title="bunnito">
+        <img src="obrazky/cat-underwater.gif" height="300" alt="umyvadlo" title="kupel" id="koupel" onclick="mnaukani()"> 
+        <img src="obrazky/kralocka.jpeg" height="300" alt="kocklik" title="bunnito" id="bunnito" onclick="mnaukani()">
         <br>
         <!--pozdejc pridelat mnaukani na kliknuti na gif-->
-        <audio src="zvuky/kitty-meow-85182.mp3" controls></audio>
+        <audio src="zvuky/kitty-meow-85182.mp3"id="zvuk"></audio>
         <!-- <br> bracket oddeluje radek-->
+         <script>
+            function mnaukani(){
+                document.getElementById("zvuk").pause()
+                document.getElementById("zvuk").currentTime=0;
+                document.getElementById("zvuk").play()
+            }
+         </script>
     </header>
     <nav>
         <a href="smrad.html" class="odkazy">gay po rn</a>

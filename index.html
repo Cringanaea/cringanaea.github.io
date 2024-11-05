@@ -2,11 +2,7 @@
 <head>
     <title>prdeni a smrdeni</title>
     <link rel="icon" type="image/x-icon" href="/obrazky/favicon.ico">
-    <style>
-        body {background-color: rgb(124, 124, 59);}
-        p {color:azure;}
-        .odkazy{color:blueviolet}
-    </style> 
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
@@ -22,13 +18,13 @@
         <img src="obrazky/kralocka.jpeg" height="300" alt="kocklik" title="bunnito" id="bunnito" onclick="mnaukani()">
         <br>
         <!--mnaukani na klik uz fakci :)-->
-        <audio src="zvuky/kitty-meow-85182.mp3"id="zvuk"></audio>
+        <audio src="zvuky/kitty-meow-85182.mp3"id="mnauk"></audio>
         <!-- <br> bracket oddeluje radek-->
          <script>
             function mnaukani(){
-                document.getElementById("zvuk").pause()
-                document.getElementById("zvuk").currentTime=0;
-                document.getElementById("zvuk").play()
+                document.getElementById("mnauk").pause()
+                document.getElementById("mnauk").currentTime=0;
+                document.getElementById("mnauk").play()
             }
          </script>
     </header>

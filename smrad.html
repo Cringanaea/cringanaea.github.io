@@ -7,9 +7,17 @@
 <body>
     <header>
         <p>sm<strong>r</strong>ad</p>
-        <img src="https://c8.alamy.com/comp/J27922/man-pinches-nose-with-fingers-looks-with-disgust-something-stinks-J27922.jpg" height="600">
+        <img src="https://c8.alamy.com/comp/J27922/man-pinches-nose-with-fingers-looks-with-disgust-something-stinks-J27922.jpg" height="600" onclick="prdeni()">
         <script>console.log("spadla kachna do povidel")</script>
         <br>
         <a href="index.html" class="odkazy">home</a>
+        <audio src="zvuky/fart.mp3"id="prd"></audio>
+        <script>
+            function prdeni(){
+                document.getElementById("prd").pause()
+                document.getElementById("prd").currentTime=0;
+                document.getElementById("prd").play()
+            }
+         </script>
     </header>
 </body>    

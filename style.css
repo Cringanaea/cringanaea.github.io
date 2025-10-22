@@ -14,6 +14,16 @@ hr{
     background-color:rgb(103, 57, 115);
     color:rgb(172, 131, 174);
     border-block:solid;
+    width: 100%;
+}
+#kocicky img{
+    padding: 0px;
+}
+#kocicky h1{
+    text-align:center;
+}
+#kocicky h6{
+    text-align: center;
 }
 h1{
     color:white
@@ -49,4 +59,7 @@ header h1{
 }
 .navigation a.active{
     background-color: rgb(85, 84, 84);
+}
+.nadpis{
+    text-align: center;
 }

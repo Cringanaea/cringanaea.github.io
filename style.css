@@ -14,10 +14,15 @@ hr{
     background-color:rgb(103, 57, 115);
     color:rgb(172, 131, 174);
     border-block:solid;
-    width: 100%;
+    width: 100vw;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 0 auto;
 }
 #kocicky img{
     padding: 0px;
+    width: auto;
+    height: 300px;;
 }
 #kocicky h1{
     text-align:center;

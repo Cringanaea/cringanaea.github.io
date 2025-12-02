@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Cringanaea's landing page</title>
+    <link rel="icon" type="image/x-icon" href="/obrazky/favicon.ico">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <!--proc su ty komentare tak divne????-->
+        <h1>Na čem zrovna dělám</h1>
+        <!-- <hr> horizontalni linka -->
+    </header>   
+    <nav>
+        <div class="navigation">
+            <a href="index.html" class="odkazy">Home</a>
+            <a href="smrad.html" class="active">projekty</a>
+            <a href="gamesky.html" class="odkazy">gamesky</a>
+            <a href="music.html" class="odkazy">Music</a>
+        </div>
+    </nav>
+    <p>Zatím nic (moc školy :/)</p>
+    <audio src="zvuky/fart.mp3"id="prd"></audio>
+    <script>
+        function prdeni(){
+            document.getElementById("prd").pause()
+            document.getElementById("prd").currentTime=0;
+            document.getElementById("prd").play()
+        }
+    </script>
+</body>    
